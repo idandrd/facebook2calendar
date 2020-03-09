@@ -5,7 +5,7 @@
   "manifest_version": 2,
   "content_scripts": [
     {
-      "matches": ["https://www.facebook.com/events/*"],
+      "matches": ["https://www.facebook.com/*"],
       "js": ["main.js"]
     }
   ],
