@@ -1,0 +1,13 @@
+{
+  "name": "facebook2calendar",
+  "version": "1.0",
+  "description": "Add facebook events to your google calendar",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://www.facebook.com/events/*"],
+      "js": ["main.js"]
+    }
+  ],
+  "permissions": ["activeTab"]
+}
